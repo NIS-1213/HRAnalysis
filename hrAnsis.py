@@ -32,7 +32,7 @@ if menu == 'Home':
     # Get to Know Nurul Izzati Suhardi
     """)
   image = Image.open('izzati.jpg')
-  st.image(image, caption='The girl is me; Nurul Izzati binti Suhardi. Image was taken during The 4th Creative Robot Contest for Decommissioning 2019 in Fukushima')
+  st.image(image, caption='The girl is me; Nurul Izzati binti Suhardi. Image was taken during The 4th Creative Robot Contest for Decommissioning 2019 in Fukushima, Japan.')
   st.write("""
   If you wish to connect with me:
     - [LinkedIn](https://www.linkedin.com/in/nurul-izzati-suhardi/)
@@ -160,7 +160,8 @@ elif menu == 'Human Resource EDA':
     - majority have a low score for their last evaluation.
     - received a high number of projects done within their time in the company.
     - mostly have an average working hours of 100 ~ 150 or 250 ~ 300.
-    - were employees that majority are experienced staffs of the company; working for more than 3 years, probably the majority that left found a better role in another company.
+    - were employees that majority are experienced staffs of the company; working for more than 3 years in the company, 
+      probably the majority that left found a better role in another company.
     - HR have the most employees that left, compared with the total number of employees by each department. Followed by Technical and Sales.
     - majority received a low salary
     - work accidents are not a factor of why employees left (low number of employees that have an accident at work)
@@ -169,6 +170,7 @@ elif menu == 'Human Resource EDA':
   From Machine Learning score result, **Random Forest** gave a very good score for this dataset.
   
   From the dataset features, cannot be determined whether the dataset is for analyzing Employee Turnover rate or Attrition rate.
+  It is more on **analysing the satisfaction level of employees working with the company**, ie. working hours, salary, career promotions.
   """)
 
 elif menu == 'Human Resource Prediction':
