@@ -159,7 +159,7 @@ elif menu == 'Human Resource EDA':
     - majority have a low satisfaction level which is in the range of 0.2 ~ 0.4.
     - majority have a low score for their last evaluation.
     - received a high number of projects done within their time in the company.
-    - mostly have an average working hours of 100 ~ 150 or 250 ~ 300, probably the majority that left are part-timers.
+    - mostly have an average working hours of 100 ~ 150 or 250 ~ 300, probably the majority that left are contract workers.
     - were employees that majority are experienced staffs of the company; working for more than 3 years, probably the majority that left found a better role in another company.
     - HR have the most employees that left, compared with the total number of employees by each department. Followed by Technical and Sales.
     - majority received a low salary
