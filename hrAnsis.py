@@ -20,7 +20,7 @@ st.sidebar.header("""
                     by NI.S
                     """)
 
-menu = st.sidebar.selectbox('Menu',['Home','T&C','Human Resource Analysis Dashboard','Human Resource EDA','Human Resource Prediction'])
+menu = st.sidebar.selectbox('Menu',['Home','T&C','Human Resource EDA','Human Resource Analysis Dashboard','Human Resource Prediction'])
 
 if menu == 'Home':
   st.write("""
