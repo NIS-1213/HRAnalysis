@@ -85,6 +85,7 @@ elif menu == 'Human Resource EDA':
     data['department'] = data['sales']
     data = data.drop(['sales'], axis=1)
     data['left'] = data['left'].astype(bool)
+    st.write("First 5 rows of the dataset without any adjustment:")
     st.write(data.head())
     hrLeft = data['left'] == 1
     hrStay = data['left'] == 0
