@@ -32,7 +32,7 @@ if menu == 'Home':
     # Get to Know Nurul Izzati Suhardi
     """)
   image = Image.open('izzati.jpg')
-  st.image(image, caption='The girl is me; Nurul Izzati binti Suhardi')
+  st.image(image, caption='The girl is me; Nurul Izzati binti Suhardi. Image was taken during The 4th Creative Robot Contest for Decommissioning 2019 in Fukushima')
   st.write("""
   If you wish to connect with me:
     - [LinkedIn](https://www.linkedin.com/in/nurul-izzati-suhardi/)
