@@ -170,7 +170,7 @@ elif menu == 'Human Resource EDA':
 
   From Machine Learning score result, **Random Forest** gave a very good score for this dataset.
   
-  From the dataset features, cannot be determined whether the dataset is for analyzing Employee Turnover rate or Attrition rate.
+  From the dataset features, it is apparent that the dataset is not for analyzing Employee Turnover rate or Attrition rate.
   It is more on **analysing the satisfaction level of employees working with the company**, ie. working hours, salary, career promotions.
   """)
 
