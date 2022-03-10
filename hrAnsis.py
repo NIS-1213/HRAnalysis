@@ -94,7 +94,7 @@ elif menu == 'Human Resource EDA':
     st.write("## Human Resource Exploratory Data Analysis by SweetViz")
     
     comparison_report = sv.compare([Stay,'Stay'],[Left,'Left'])
-    comparison_report.show_html(filepath='SWEETVIZ_REPORT.html', open_browser=False, layout='vertical', scale=1.0)
+    comparison_report.show_html(filepath='SWEETVIZ_REPORT.html', open_browser=True, layout='vertical', scale=1.0)
     HtmlFile = open("SWEETVIZ_REPORT.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
