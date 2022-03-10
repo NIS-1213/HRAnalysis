@@ -166,6 +166,7 @@ elif menu == 'Human Resource EDA':
     - work accidents are not a factor of why employees left (low number of employees that have an accident at work)
 
   From Machine Learning score result, **Random Forest** gave a very good score for this dataset.
+  
   From the dataset features, cannot be determined whether the dataset is for analyzing Employee Turnover rate or Attrition rate.
   """)
 
