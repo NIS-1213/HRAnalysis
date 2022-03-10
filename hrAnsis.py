@@ -160,12 +160,13 @@ elif menu == 'Human Resource EDA':
     - majority have a low score for their last evaluation.
     - received a high number of projects done within their time in the company.
     - mostly have an average working hours of 100 ~ 150 or 250 ~ 300, probably the majority that left are part-timers.
-    - were employees that majority are experienced staffs of the company; working for more than 3 years
+    - were employees that majority are experienced staffs of the company; working for more than 3 years, probably the majority that left found a better role in another company.
     - HR have the most employees that left, compared with the total number of employees by each department. Followed by Technical and Sales.
     - majority received a low salary
     - work accidents are not a factor of why employees left (low number of employees that have an accident at work)
 
   From Machine Learning score result, **Random Forest** gave a very good score for this dataset.
+  From the dataset features, cannot be determined whether the dataset is for analyzing Employee Turnover rate or Attrition rate.
   """)
 
 elif menu == 'Human Resource Prediction':
