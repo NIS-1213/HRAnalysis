@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from streamlit_player import st_player
 import sweetviz as sv
 import pandas as pd
 import numpy as np
@@ -29,8 +30,11 @@ if menu == 'Home':
     This app gathers the data related to employees in a company, and we'll see the relationship of the features and do predictions.
     Training data used is from [here](https://www.kaggle.com/colara/human-resource)
 
-    # Get to Know Nurul Izzati Suhardi
+    ## Explanation Video
     """)
+  # Embed a youtube video, hint from https://discuss.streamlit.io/t/streamlit-player/3169
+  st_player("https://youtu.be/zHB1vsB2Fz0")
+  st.write("## Get to know me!")
   image = Image.open('izzati.jpg')
   st.image(image, caption='The girl is me; Nurul Izzati binti Suhardi. Image was taken during The 4th Creative Robot Contest for Decommissioning 2019 in Fukushima, Japan.')
   st.write("""
